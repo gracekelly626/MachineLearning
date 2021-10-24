@@ -1,11 +1,11 @@
 ## Machine Learning
 #### Supervised Learning 
-###### - Classification
+##### - Classification
 - decision tree
 - random forest 
 - SVM
 - kNN
-###### - Regression
+##### - Regression
 - linear regression
 - logistic regression
 #### Unsupervised Learning 
