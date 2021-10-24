@@ -1,1 +1,4 @@
-# Machine_learning
+## Machine Learning
+#### Supervised Learning 
+#### Unsupervised Learning 
+#### Deep Learning 
