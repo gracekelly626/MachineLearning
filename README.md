@@ -1,6 +1,6 @@
 ## Machine Learning
 #### Supervised Learning 
-###### Classification
-###### Regression
+###### - Classification
+###### - Regression
 #### Unsupervised Learning 
 #### Deep Learning 
