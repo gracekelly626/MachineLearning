@@ -7,15 +7,17 @@ https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 ## Supervised Learning - already know the ground thruth of input data （labeled）
 知道input & output， 找出mapping的过程
 
-#### classification - discrete output  一般做分类 
-#### regression - continious output 一般做预测
+#### classification - discrete output  
+classifying labeled data
+#### regression - continious output 
+predicting the trends using previous labeled data 
 #### classification vs regression 
 e.g. object detection 
 - 分类 -  classification
 - 找出位置大小 - regression 
 
 ## Unsupervised Learning - do not know ground truth of unlabeled data need to find its underlying pattern but have algo to follow 
-- clustering
+- clustering - finding patterns or grouping from unlabeled data
 - 其他 - 生成模型:
 - 生成人脸，
 -  GAN， sample 里有1，2，3，4，5 数字图像， 生成和sample不一样的新的1，2，3，4数字图像
