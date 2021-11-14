@@ -29,3 +29,9 @@ step 2
 step 3 
 if the labels are all the same in the same subset, then return the lable.
 
+for v in {NOne, Some, Full}:
+  example = [none, some, full]
+  for none -- return F
+
+  
+
