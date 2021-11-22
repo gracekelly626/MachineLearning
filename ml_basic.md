@@ -1,4 +1,5 @@
 # Machine Learning 
+- give computers the ability to learn to make decisions from data without being explicitly programmed 
 - traditional ML often work with structured data/ say tabular data 
 - 注意数据量 - 给direction 到用哪些model e.g. if the sample size < 10k & unlabeled data -> unsupervised learning
 ![image](https://user-images.githubusercontent.com/90355504/138587642-451a06e2-99ec-4bba-8e5d-eb1002c331f1.png)
@@ -23,5 +24,6 @@ e.g. object detection
 -  GAN， sample 里有1，2，3，4，5 数字图像， 生成和sample不一样的新的1，2，3，4数字图像
 -  医学影像生成： 数据有限， 通过已知肺癌CT生成肺癌CT图片以获取更多图片， GAN生成的图片不需要人工label， 再训练classifer， 分辨是否有肺癌
 
+## Reinforcement Learning - software agents interact with an environment given a system of rewards and punishments
 ## Deep Learning - need to find intractable mapping
 deep learning can work with both structured and unstructured data 
