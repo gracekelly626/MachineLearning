@@ -1,4 +1,4 @@
-### kernel trick 
+### kernel trick - don't need to find Z,Z' explicitly, juts know its dot product
 当在原始平面不容易用直线一分为二时， 使用kernel trick 把点映射到另外一个空间， 方便linear划分。 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40divakar_239%2Fstochastic-vs-batch-gradient-descent-8820568eada1&psig=AOvVaw2EGBZhQoIJQ_x8Qd3R13H1&ust=1638184990724000&source=images&cd=vfe&ved=2ahUKEwjc3e3k-Lr0AhUNYxoKHcOfBRIQr4kDegUIARDMAQ
 
@@ -29,3 +29,5 @@ Where k = 0, …., infinity
 
 
 Z = (exp(-X^2)*(X^0),   …..  , exp(-X^2)*(X^k))
+
+### kernel approxiamtion - map Z,Z', will know its explicit value
