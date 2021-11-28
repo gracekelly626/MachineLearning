@@ -14,3 +14,18 @@ Z' = (z1', z2', ...'zn')
 
 suppose Kernel = XXX , 通过K（X，Y） 算出dot（Z,Z') -> 只需要知道dot product 就可以解lagrange 
 K(X,Y) = dot(Z,Z') 
+
+Guess mapping F, F(x) = z, difficult ;(
+
+K(X, X’) = dot(Z, Z’)  -> guess K -> (‘rbf’, ….., ….)
+Implicit 
+         Suppose Kernel = exp(−(X − X’)^2)
+         exp(-X^2 + 2*X*X’ - X’^2)
+= exp(-X^2)*exp(-X’^2)*exp(2*X*X’)
+= exp(-X^2)*exp(-X’^2)*Sum(2^k * (X^k) * (X’^k)/ k!)
+= 2^k/k! * Sum( exp(-X^2)*(X^k) * exp(-X’^2)*(X’^k) )
+
+Where k = 0, …., infinity
+
+
+Z = (exp(-X^2)*(X^0),   …..  , exp(-X^2)*(X^k))
