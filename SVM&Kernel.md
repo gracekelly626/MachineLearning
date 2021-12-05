@@ -7,15 +7,15 @@ decision boundary - a vecotr w constraint with any length, perpendicular to the 
 ### steps for SVM 
 - DECISION RULE: dot(w,u) + b >= 0 , then +
 - SUPPORT VECOTR: yi(xi*w + b) -1 = 0 for xi in gutter 
-- WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w||
-### further explaination 
-dot(w, u) >= c (a constant) ==>
-WTLG dot(w,u) + b >= 0 , then + (DECISION RULE) ==>
-dot(w,x+) + b >= 1 & dot(w,x-) + b <= -1 (considering both sides of the line) --> 
-introducing a new varible, yi s.t yi = 1 for sample + ; yi +-1 for sample - ==>
-therefore, the decision rule is equivalent to yi(xi*w + b) -1 >= 0 ==>
-yi(xi*w + b) -1 = 0 ** for xi in gutter - support vector -->
-WIDTH OF THE STREET: dot((x+ - x-), w/|w|) = 2/|w| from equation ** 
+- WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w|| (want the width as wide as possible)
+### Detailed Explaination 
+- dot(w, u) >= c (a constant) 
+- WTLG dot(w,u) + b >= 0 , then + (DECISION RULE) 
+- dot(w,x+) + b >= 1 & dot(w,x-) + b <= -1 (considering both sides of the line)
+- introducing a new varible, yi s.t yi = 1 for sample + ; yi +-1 for sample -
+- therefore, the decision rule is equivalent to yi(xi*w + b) -1 >= 0 
+- yi(xi*w + b) -1 = 0 ** for xi in gutter - support vector
+- WIDTH OF THE STREET: dot((x+ - x-), w/|w|) = 2/|w| from equation ** 
 
 
 
