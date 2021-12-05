@@ -9,3 +9,7 @@ X: features of apartments xi = [no of bedrooms = 2,area = 100, age = 10, no. of 
 RSS = ![image](https://user-images.githubusercontent.com/90355504/144762452-a318892e-efee-4da2-9b9c-fd20b5248f93.png)
  ### for least square
 ![image](https://user-images.githubusercontent.com/90355504/144762257-12eecd84-03ee-4f5b-af99-f21c131d9eea.png)
+
+### Lasso Regression
+![image](https://user-images.githubusercontent.com/90355504/144762518-f8535303-9e02-4bd1-ae38-aa89b746fabd.png)
+
