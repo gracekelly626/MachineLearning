@@ -22,3 +22,5 @@ more likely 找到尖角 -》 parameter 更容易为0
 ![image](https://user-images.githubusercontent.com/90355504/144763074-2a3761df-3c43-4af6-ace6-e4368a6fcbca.png)
 
 
+### SVR - Support Vector 
+
