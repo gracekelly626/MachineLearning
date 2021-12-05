@@ -4,10 +4,11 @@ want to draw a straight line with the view putting in the **widest** street that
 
 decision boundary - a vecotr w constraint with any length, perpendicular to the median line of the street; also have some unknown points, and have a vector u that points to it -> project to the vecotr u down on to one that is perpendicular to the street to figure out the unkown is on the irght or left side of the street. THE FURTHER, THE RIGHT
 
-### steps for SVM 
+### Developments for SVM 
 - DECISION RULE: dot(w,u) + b >= 0 , then +
 - SUPPORT VECOTR: yi(xi*w + b) -1 = 0 for xi in gutter 
 - WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w|| (want the width as wide as possible)
+- 
 ### Detailed Explaination 
 - dot(w, u) >= c (a constant) 
 - WTLG dot(w,u) + b >= 0 , then + (DECISION RULE) 
@@ -16,7 +17,9 @@ decision boundary - a vecotr w constraint with any length, perpendicular to the 
 - therefore, the decision rule is equivalent to yi(xi*w + b) -1 >= 0 
 - yi(xi*w + b) -1 = 0 ** for xi in gutter - support vector
 - WIDTH OF THE STREET: dot((x+ - x-), w/|w|) = 2/|w| from equation ** 
-- max 2/|w| -> equivalent to max 1/|w| -> equivalently min |w| -> equivalently 1/2|w|**2
+- maximise 2/|w| -> equivalent to maximise 1/|w| -> equivalently minimise |w| -> equivalently minimise 1/2|w|^2
+- by LAGRANGE multipliers, L = 1/2|W|^2 - SUM(alpha i(yi(dot(w,xi) + b) -1) ; find the derivatives and set to 0 (differetiate vector is equal to differentiate a scaler) 
+- w is equal to the linear sum of some vectors in the sample w = sum(alpha i* yi*xi) 
 
 
 
