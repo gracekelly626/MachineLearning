@@ -1,4 +1,4 @@
-# Linear Regression - continuous output; linear model; predict the trend
+### Linear Regression - continuous output; linear model; predict the trend
 choose the line that minimise the error function, i.e loss function 
 
 X: features of apartments xi = [no of bedrooms = 2,area = 100, age = 10, no. of transaction = 3, facing = 1] (有很多个
