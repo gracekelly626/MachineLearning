@@ -1,4 +1,4 @@
-SVM - solve classification problem 
+SVM - solve classification problem (linearly separable, otherwise use kernel transformation) 
 want to draw a straight line with the view putting in the **widest** street that seperates the positive samples from the negative samples. 
 ![image](https://user-images.githubusercontent.com/90355504/144755453-3277dcea-808d-457e-b0b2-c1a70d8dbc02.png)
 
@@ -8,7 +8,7 @@ decision boundary - a vecotr w constraint with any length, perpendicular to the 
 - DECISION RULE: dot(w,u) + b >= 0 , then +
 - SUPPORT VECOTR: yi(xi*w + b) -1 = 0 for xi in gutter 
 - WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w|| (want the width as wide as possible)
-- ![image](https://user-images.githubusercontent.com/90355504/144757571-2cb23b16-7b53-4e38-9878-c51af81ba218.png)
+- ![image](https://user-images.githubusercontent.com/90355504/144757571-2cb23b16-7b53-4e38-9878-c51af81ba218.png) ( the optimisation problem only depends on **THE DOT PRODUCT OF THE PAIR OF xi and xj**)
 
 ### Detailed Explaination 
 - dot(w, u) >= c (a constant) 
