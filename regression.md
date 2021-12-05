@@ -1,6 +1,6 @@
 ## Linear Regression - continuous output; linear model; predict the trend
-模型假设是一样的， for least square, lasso, ridge, elastics, support vector
-choose the line that minimise the error function, i.e loss function 
+- 模型假设是一样的linear model， for least square, lasso, ridge, elastics, support vector; 但是loss function不一样
+- choose the line that minimise the error function, i.e loss function 
 
 X: features of apartments xi = [no of bedrooms = 2,area = 100, age = 10, no. of transaction = 3, facing = 1] (有很多个
 
