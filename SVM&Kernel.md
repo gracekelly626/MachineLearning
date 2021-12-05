@@ -16,6 +16,7 @@ decision boundary - a vecotr w constraint with any length, perpendicular to the 
 - therefore, the decision rule is equivalent to yi(xi*w + b) -1 >= 0 
 - yi(xi*w + b) -1 = 0 ** for xi in gutter - support vector
 - WIDTH OF THE STREET: dot((x+ - x-), w/|w|) = 2/|w| from equation ** 
+- max 2/|w| -> equivalent to max 1/|w| -> equivalently min |w| -> equivalently 1/2|w|**2
 
 
 
