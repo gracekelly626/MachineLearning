@@ -1,3 +1,25 @@
+SVM - solve classification problem 
+want to draw a straight line with the view putting in the **widest** street that seperates the positive samples from the negative samples. 
+![image](https://user-images.githubusercontent.com/90355504/144755453-3277dcea-808d-457e-b0b2-c1a70d8dbc02.png)
+
+decision boundary - a vecotr w constraint with any length, perpendicular to the median line of the street; also have some unknown points, and have a vector u that points to it -> project to the vecotr u down on to one that is perpendicular to the street to figure out the unkown is on the irght or left side of the street. THE FURTHER, THE RIGHT
+
+### steps for SVM 
+- DECISION RULE: dot(w,u) + b >= 0 , then +
+- SUPPORT VECOTR: yi(xi*w + b) -1 = 0 for xi in gutter 
+- WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w||
+### further explaination 
+dot(w, u) >= c (a constant) ==>
+WTLG dot(w,u) + b >= 0 , then + (DECISION RULE) ==>
+dot(w,x+) + b >= 1 & dot(w,x-) + b <= -1 (considering both sides of the line) --> 
+introducing a new varible, yi s.t yi = 1 for sample + ; yi +-1 for sample - ==>
+therefore, the decision rule is equivalent to yi(xi*w + b) -1 >= 0 ==>
+yi(xi*w + b) -1 = 0 ** for xi in gutter - support vector -->
+WIDTH OF THE STREET: dot((x+ - x-), w/|w|) = 2/|w| from equation ** 
+
+
+
+
 ### kernel trick - don't need to find Z,Z' explicitly, juts know its dot product
 当在原始平面不容易用直线一分为二时， 使用kernel trick 把点映射到另外一个空间， 方便linear划分。 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40divakar_239%2Fstochastic-vs-batch-gradient-descent-8820568eada1&psig=AOvVaw2EGBZhQoIJQ_x8Qd3R13H1&ust=1638184990724000&source=images&cd=vfe&ved=2ahUKEwjc3e3k-Lr0AhUNYxoKHcOfBRIQr4kDegUIARDMAQ
