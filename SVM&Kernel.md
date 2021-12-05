@@ -8,7 +8,7 @@ decision boundary - a vecotr w constraint with any length, perpendicular to the 
 - DECISION RULE: dot(w,u) + b >= 0 , then +
 - SUPPORT VECOTR: yi(xi*w + b) -1 = 0 for xi in gutter 
 - WIDTH OF THE STREET: dot((x+ - x-), w/||w||) = 2/||w|| (want the width as wide as possible)
-- ![image](https://user-images.githubusercontent.com/90355504/144757571-2cb23b16-7b53-4e38-9878-c51af81ba218.png) ( the optimisation problem only depends on **THE DOT PRODUCT OF THE PAIR OF xi and xj**)
+- ![image](https://user-images.githubusercontent.com/90355504/144757571-2cb23b16-7b53-4e38-9878-c51af81ba218.png) ( the optimisation problem only depends on **THE DOT PRODUCT OF THE PAIR OF xi and xj** now)
 
 ### Detailed Explaination 
 - dot(w, u) >= c (a constant) 
