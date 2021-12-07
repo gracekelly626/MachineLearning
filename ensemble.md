@@ -24,6 +24,8 @@ x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
 - data exaggeration of h1 error to produce h2
 - data exaggeration of h2 != h1 to produce h 3 
 
+![image](https://user-images.githubusercontent.com/90355504/145109020-c8e515c6-dd5b-486f-8a8a-ca11a990bcf9.png)
+
 
 通过weak　learner建一个strong　learner：　F
 
