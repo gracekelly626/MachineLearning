@@ -29,11 +29,13 @@ x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
 - use the data ubdisturbed to produce h1
 - data exaggeration of h1 error to produce h2
 - data exaggeration of h2 != h1 to produce h 3 
+thank - god hole 
+![image](https://user-images.githubusercontent.com/90355504/145116014-8338f5b8-65f4-4e60-85ff-3007515510d8.png)
+the sum of those weights is going to be a scaled version of what they were before. ?????? 
+
+![image](https://user-images.githubusercontent.com/90355504/145116236-9fa0ef81-0a7a-49a3-991b-7f9d9e40df8a.png)
 
 
-
-
-通过weak　learner建一个strong　learner：　F
 
 #### Random Forest - bagging
 is a type of bagging 
