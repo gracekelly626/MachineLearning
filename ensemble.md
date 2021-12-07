@@ -7,7 +7,8 @@ https://web.stanford.edu/~hastie/Papers/samme.pdf
 
 
 #### Boosting - making a strong classifier H by combining several weak classifers h by letting them vote
-assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false// 
+assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false
+
 error ranges from 0 to 1. 
 weaker learner - little bit better than fliping a coin
 通过weak　learner建一个strong　learner：　F
