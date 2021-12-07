@@ -10,7 +10,12 @@ https://web.stanford.edu/~hastie/Papers/samme.pdf
 assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false
 
 error ranges from 0 to 1. 
+
 weaker learner - little bit better than fliping a coin
+
+x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
+
+
 通过weak　learner建一个strong　learner：　F
 
 #### Random Forest - bagging
