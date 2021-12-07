@@ -1,7 +1,7 @@
 ### Ensemble Methods
 - bagging
 - boosting
-Ensemble technique can be applied to many ML models, not just for tree/forest. classification 
+Ensemble technique can be applied to many ML models, not just for tree/forest. the main aim of Boosting is to focus more on miss-classified predictions.
 
 https://www.edureka.co/blog/boosting-machine-learning/
 
