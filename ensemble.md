@@ -1,10 +1,15 @@
-ensemble technique can be applied to many ML models, not just for tree/forest. 
-https://www.edureka.co/blog/boosting-machine-learning/
-https://web.stanford.edu/~hastie/Papers/samme.pdf
-### ensemble methods
+### Ensemble Methods
 - bagging
 - boosting
-weaker learner: h
+Ensemble technique can be applied to many ML models, not just for tree/forest. classification 
+https://www.edureka.co/blog/boosting-machine-learning/
+https://web.stanford.edu/~hastie/Papers/samme.pdf
+
+
+#### Boosting 
+assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false 
+error ranges from 0 to 1. 
+weaker learner - little bit better than fliping a coin
 通过weak　learner建一个strong　learner：　F
 
 #### Random Forest - bagging
