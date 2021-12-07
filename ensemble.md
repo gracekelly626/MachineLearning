@@ -7,6 +7,10 @@ https://web.stanford.edu/~hastie/Papers/samme.pdf
 
 
 #### Boosting - making a strong classifier H by combining several weak classifers h by letting them vote
+- start with wi = 1/N (N is teh no. of sample)
+- pick ht s.t minimise the error at time t 
+- pick weight alpha at time t 
+- calculate the wi at time t+1 
 assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false
 
 error ranges from 0 to 1. 
@@ -14,6 +18,9 @@ error ranges from 0 to 1.
 weaker learner - little bit better than fliping a coin
 
 x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
+- use the data ubdisturbed to produce h1
+- data exaggeration of h1 error to produce h2
+- data exaggeration of h2 != h1 to produce h 3 
 
 
 通过weak　learner建一个strong　learner：　F
