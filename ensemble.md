@@ -13,6 +13,8 @@ https://web.stanford.edu/~hastie/Papers/samme.pdf
 - pick ht s.t minimise the error at time t 
 - pick weight alpha at time t 
 - calculate the wi at time t+1 
+- ![image](https://user-images.githubusercontent.com/90355504/145109020-c8e515c6-dd5b-486f-8a8a-ca11a990bcf9.png)
+(y is just a function with value plus 1 or minus 1 depending on the output ought to be plus 1 or minus 1, flip the sign for the wrong answer)
 assume a binary classifer h produces [-1,1]. e.g 1 for true and -1 for false
 
 error ranges from 0 to 1. 
@@ -24,7 +26,7 @@ x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
 - data exaggeration of h1 error to produce h2
 - data exaggeration of h2 != h1 to produce h 3 
 
-![image](https://user-images.githubusercontent.com/90355504/145109020-c8e515c6-dd5b-486f-8a8a-ca11a990bcf9.png)
+
 
 
 通过weak　learner建一个strong　learner：　F
