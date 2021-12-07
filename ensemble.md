@@ -1,9 +1,9 @@
 ensemble technique can be applied to many ML models, not just for tree/forest. 
 https://www.edureka.co/blog/boosting-machine-learning/
 https://web.stanford.edu/~hastie/Papers/samme.pdf
-ensemble methods
-bagging
-boosting
+### ensemble methods
+- bagging
+- boosting
 weaker learner: h
 通过weak　learner建一个strong　learner：　F
 
