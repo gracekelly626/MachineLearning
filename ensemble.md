@@ -32,11 +32,11 @@ x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
 - data exaggeration of h2 != h1 to produce h 3 
 
 Thank-God Hole 
-
+1. Scale
 ![image](https://user-images.githubusercontent.com/90355504/145116014-8338f5b8-65f4-4e60-85ff-3007515510d8.png)
 
 the sum of those weights is going to be a scaled version of what they were before. ?????? 
-
+2. not all tests are needed
 ![image](https://user-images.githubusercontent.com/90355504/145116236-9fa0ef81-0a7a-49a3-991b-7f9d9e40df8a.png)
 
 
