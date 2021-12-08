@@ -1,14 +1,15 @@
 ### Ensemble Methods
-- bagging
-- boosting
-Ensemble technique can be applied to many ML models, not just for tree/forest. the main aim of Boosting is to focus more on miss-classified predictions.
+Ensemble technique can be applied to many ML models, not just for tree/forest.
+- Bagging: parallel; dividing data set into different bootstrap data sets and running a weak learner on each of these data sets
+- Boosting: sequential; the main aim of Boosting is to focus more on miss-classified predictions.
+- ![image](https://user-images.githubusercontent.com/90355504/145223513-21d3cafb-4c4c-452c-96b0-88dc78515f65.png)
 
-https://www.edureka.co/blog/boosting-machine-learning/
 
-https://web.stanford.edu/~hastie/Papers/samme.pdf
+
 
 
 #### Boosting - making a strong classifier H by combining several weak classifers h by letting them vote
+the performance of the model id improved by assigning a hihger weight to the previous incorrectly classified samples
 - start with wieght that sample wi = 1/N (N is teh no. of sample)
 - pick ht s.t minimise the error at time t 
 - pick weight alpha at time t 
@@ -44,14 +45,18 @@ h -> Decision Tree
 
 random forest ->(sample with replacement 同一颗树可以用很多次) -  10 trees -> majority voting
 
-#### Adaboost
+#### Adaboost - updatign with a higher weight to misclassifed sample
 1. equally weighted 
 2. compute alpha - err 越大，　alpha越大　－> 之前做的不好会有更大的weight
 3. 之前的tree还是保留，　打补丁
 
-#### Gradient Boosting 
+#### Gradient Boosting - optimise the loss function of the previous learner
 F -> gradient boosting tree; h -> decision tree
 x : [x1,x2,x3...] feature Y: y (label/ground true)
 Loss Function L = (F(x) - y ) ^2
 train weak learner for pseudo-residuals
 https://en.wikipedia.org/wiki/Gradient_boosting
+
+https://www.edureka.co/blog/boosting-machine-learning/
+
+https://web.stanford.edu/~hastie/Papers/samme.pdf
