@@ -31,7 +31,7 @@ x is sample H(x) = sign(h1(x)+h2(x)+h3(x))
 - data exaggeration of h1 error to produce h2
 - data exaggeration of h2 != h1 to produce h 3 
 
-thank - god hole 
+Thank-God Hole 
 
 ![image](https://user-images.githubusercontent.com/90355504/145116014-8338f5b8-65f4-4e60-85ff-3007515510d8.png)
 
@@ -58,6 +58,7 @@ F -> gradient boosting tree; h -> decision tree
 x : [x1,x2,x3...] feature Y: y (label/ground true)
 Loss Function L = (F(x) - y ) ^2
 train weak learner for pseudo-residuals
+
 https://en.wikipedia.org/wiki/Gradient_boosting
 
 https://www.edureka.co/blog/boosting-machine-learning/
