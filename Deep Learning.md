@@ -34,5 +34,5 @@ https://arxiv.org/pdf/1910.13796.pdf
 
 - Neural Network Basics, BP 
 - Image Classificaiton: CNN
-- Machine Translation: RNN
+- Machine Translation: RNN, embedding
 - Machine Translation: Transformer(attention)
