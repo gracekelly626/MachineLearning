@@ -31,3 +31,8 @@ SGD, Adam - Adaptive Moment Estimation
 2. Deep Learning: end-to-end training 
 Disadvatage: data & computation power 
 https://arxiv.org/pdf/1910.13796.pdf
+
+- Neural Network Basics, BP 
+- Image Classificaiton: CNN
+- Machine Translation: RNN
+- Machine Translation: Transformer(attention)
