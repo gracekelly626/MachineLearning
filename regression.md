@@ -14,7 +14,9 @@ RSS = ![image](https://user-images.githubusercontent.com/90355504/144762452-a318
 solve overfitting problem -> reduce variance at the cost of introducing some bias -> Regularisation 
 ![image](https://user-images.githubusercontent.com/90355504/144763306-72e220f5-4f14-46b9-8d75-37918159da7f.png)
 
-### Lasso Regression - L1 regularisation lamda  是个经验值， 调整曲线的平滑度 hyper parameter -> zeros weights -> feature selection 
+### Lasso Regression - Least Absolute Shrinkage and Selection Operator
+- L1 regularisation lamda  是个经验值， 调整曲线的平滑度 hyper parameter -> zeros weights -> feature selection 
+Lasso regression performs L1 regularization, which adds a penalty equal to the absolute value of the magnitude of coefficients. This type of regularization can result in sparse models with few coefficients
 more likely 找到尖角 -》 parameter 更容易为0
 ![image](https://user-images.githubusercontent.com/90355504/144762518-f8535303-9e02-4bd1-ae38-aa89b746fabd.png)
 ### Ridge Regression - L2 regularisation -> small weights -> smooth curve 
