@@ -36,3 +36,6 @@ https://arxiv.org/pdf/1910.13796.pdf
 - Image Classificaiton: CNN
 - Machine Translation: RNN, embedding
 - Machine Translation: Transformer(attention)
+
+
+784 个小圆圈
