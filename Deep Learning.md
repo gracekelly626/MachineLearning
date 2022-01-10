@@ -39,3 +39,10 @@ https://arxiv.org/pdf/1910.13796.pdf
 
 
 784 个小圆圈
+
+- perceptron/single neuron
+- : forward propagation
+![image](https://user-images.githubusercontent.com/90355504/148845104-9ae8f385-6e74-4ba2-bd89-d3ad9bfef8d0.png)
+xi: input; wi: corresponding weight; w0: bias term to allow shift the activation function left or right
+common activation function: sigmoid, hyperbolic tangent, ReLU
+the purpose of activation function is to introduce /non-linearities/ into the network. 
