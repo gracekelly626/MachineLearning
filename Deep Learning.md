@@ -70,6 +70,8 @@ Locality - only a small nerghborhood of pixels will be used to compute the corre
 
 convolutional layers typically require fewer parameters that fully-connected layers 
 
+Pooling layers provide an approach to down sampling feature maps by summarizing the presence of features in patches of the feature map. Two common pooling methods are average pooling and max pooling that summarize the average presence of a feature and the most activated presence of a feature respectively.
+
 feature map 
 ![image](https://user-images.githubusercontent.com/90355504/149657927-44c9929f-acb6-4a84-9f67-61efc9849ff6.png)
 
