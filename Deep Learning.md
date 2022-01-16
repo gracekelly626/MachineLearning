@@ -54,9 +54,11 @@ the purpose of activation function is to introduce non-linearities into the netw
 #### CNN
 convolution: can do soem changes to our input
 parameters won't change as input; operate piece by piece using the same kernel
-
+![image](https://user-images.githubusercontent.com/90355504/149656632-71e15154-5717-403e-b457-3a7a7d8c5edd.png)
 
 strikde - 移动步伐
+
 padding - in order to remain the size of output as the same as input, add extra layer to input
- 
-![image](https://user-images.githubusercontent.com/90355504/149656632-71e15154-5717-403e-b457-3a7a7d8c5edd.png)
+ ![image](https://user-images.githubusercontent.com/90355504/149657008-900b55da-1aca-49ed-8e6a-67f27032f892.png)
+
+
