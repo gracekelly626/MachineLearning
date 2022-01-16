@@ -53,7 +53,7 @@ the purpose of activation function is to introduce non-linearities into the netw
 
 #### CNN
 convolution: can do soem changes to our input
-parameters won't change as input; operate piece by piece using the same kernel
+no. of parameters won't change as input; operate piece by piece using the same kernel
 ![image](https://user-images.githubusercontent.com/90355504/149656632-71e15154-5717-403e-b457-3a7a7d8c5edd.png)
 
 strikde - 移动步伐
@@ -62,3 +62,15 @@ padding - in order to remain the size of output as the same as input, add extra 
  ![image](https://user-images.githubusercontent.com/90355504/149657008-900b55da-1aca-49ed-8e6a-67f27032f892.png)
 
 
+CNN - can learn the kernel's parameters from the data
+
+Translation Invariance - in images, it implies that all patches of an image will be treated in the same manner
+
+Locality - only a small nerghborhood of pixels will be used to compute the corresponding hidden representations 
+
+convolutional layers typically require fewer parameters that fully-connected layers 
+
+feature map 
+![image](https://user-images.githubusercontent.com/90355504/149657927-44c9929f-acb6-4a84-9f67-61efc9849ff6.png)
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fireneli.eu%2F2016%2F02%2F03%2Fdeep-learning-05-talk-about-convolutional-neural-network%25EF%25BC%2588cnn%25EF%25BC%2589%2F&psig=AOvVaw1cdQrDSywfmN0jC1oXV16t&ust=1642418109732000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjambSStvUCFQAAAAAdAAAAABAf
