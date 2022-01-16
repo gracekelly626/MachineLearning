@@ -57,7 +57,6 @@ parameters won't change as input; operate piece by piece using the same kernel
 
 
 strikde - 移动步伐
-
 padding - in order to remain the size of output as the same as input, add extra layer to input
  
 ![image](https://user-images.githubusercontent.com/90355504/149656632-71e15154-5717-403e-b457-3a7a7d8c5edd.png)
